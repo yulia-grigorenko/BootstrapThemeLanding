@@ -12,7 +12,7 @@ body {
   font-weight: 700;
   font-size: .9rem;
   letter-spacing: .1rem;
-  background: rgba(0, 0, 0, 0.6) important!;
+  background: rgba(0, 0, 0, 0.6) !important;
 }
 
 .navbar-brand img {
@@ -32,10 +32,45 @@ body {
 .navbar-dark .navbar-nav .nav-link:hover{
   color: #1ebba3;
 }
-/*============= HOME SECTION =============*/
-#home {
+/*============= LANDING SECTION =============*/
+.home-inner {
   background-image: url(../img/computers.png);
 }
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem #000000;
+  padding-bottom: 1rem;
+}
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem #000000;
+   padding-bottom: 1.6rem;
+}
+.btn-getStarted {
+  text-transform: uppercase;
+  border-width: medium;
+  border-radius: 0;
+  padding: 0;
+  font-size: 1.1rem;
+}
+.btn-getStarted a {
+  display: block;
+  text-decoration: none;
+  padding: 1.2rem 2.6rem;
+}
+
+
 
 
 
