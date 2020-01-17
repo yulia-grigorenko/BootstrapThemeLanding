@@ -133,9 +133,16 @@ h3.heading {
 /*================ RESOURCES SECTION =============*/
 .fixed {
   background-image: url(../img/apple.png);
+  z-index: -1;
 }
-
-
+.dark {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #ffffff;
+  padding: 7rem 2rem;
+}
+.fixed-background h3 {
+  margin-bottom: 2rem;
+}
 
 
 
